@@ -20,7 +20,7 @@ const Index = () => {
       story: "Маша любит рисовать и мечтает стать художником. Сейчас она проходит курс химиотерапии.",
       needed: 500000,
       collected: 350000,
-      image: "https://cdn.poehali.dev/projects/1c550335-c843-4327-9bd8-f4ef9175fe7f/files/39b947a4-bcc0-4308-a2a1-8eeda4b45720.jpg"
+      image: "https://cdn.poehali.dev/files/b85f8e10-1d1b-47ed-8f56-162993d1be2e.jpg"
     },
     {
       id: 2,

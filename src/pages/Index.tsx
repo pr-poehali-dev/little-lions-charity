@@ -26,11 +26,11 @@ const Index = () => {
       id: 2,
       name: "Даня",
       age: 7,
-      diagnosis: "Порок сердца",
-      story: "Даня обожает футбол и очень хочет снова играть с друзьями. Ему необходима операция на сердце.",
+      diagnosis: "Трансплантация костного мозга",
+      story: "Даня обожает футбол и очень хочет снова играть с друзьями. Ему необходима трансплантация костного мозга.",
       needed: 800000,
       collected: 520000,
-      image: "https://cdn.poehali.dev/projects/1c550335-c843-4327-9bd8-f4ef9175fe7f/files/7c0bea3a-b78d-4343-ab2c-5145c1dea861.jpg"
+      image: "https://cdn.poehali.dev/files/f813edc3-4f0b-41b7-a3a9-4c1ccca3e753.jpeg"
     },
     {
       id: 3,

@@ -4,7 +4,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Progress } from "@/components/ui/progress";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+
 import Icon from "@/components/ui/icon";
 import { useState } from "react";
 
@@ -44,11 +44,7 @@ const Index = () => {
     }
   ];
 
-  const reports = [
-    { month: "Январь 2025", income: 1250000, expenses: 1180000, helped: 8 },
-    { month: "Февраль 2025", income: 980000, expenses: 950000, helped: 6 },
-    { month: "Март 2025", income: 1450000, expenses: 1420000, helped: 10 }
-  ];
+
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-accent to-white">
@@ -66,7 +62,6 @@ const Index = () => {
             <a href="#about" className="text-foreground hover:text-primary transition-colors">О нас</a>
             <a href="#children" className="text-foreground hover:text-primary transition-colors">Подопечные</a>
             <a href="#help" className="text-foreground hover:text-primary transition-colors">Помочь</a>
-            <a href="#reports" className="text-foreground hover:text-primary transition-colors">Отчёты</a>
             <a href="#volunteer" className="text-foreground hover:text-primary transition-colors">Волонтёрство</a>
             <a href="#contacts" className="text-foreground hover:text-primary transition-colors">Контакты</a>
           </div>
@@ -261,91 +256,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="reports" className="py-20 px-4 bg-gradient-to-b from-white to-accent">
-        <div className="container mx-auto max-w-4xl">
-          <h2 className="text-4xl font-bold text-center mb-4 text-foreground">Финансовые отчёты</h2>
-          <p className="text-center text-muted-foreground mb-12">
-            Мы гордимся прозрачностью наших финансов. Каждый рубль идёт на помощь детям
-          </p>
-          <Tabs defaultValue="monthly" className="w-full">
-            <TabsList className="grid w-full grid-cols-2 mb-8">
-              <TabsTrigger value="monthly">По месяцам</TabsTrigger>
-              <TabsTrigger value="detailed">Детальный отчёт</TabsTrigger>
-            </TabsList>
-            <TabsContent value="monthly" className="space-y-4">
-              {reports.map((report, index) => (
-                <Card key={index} className="animate-fade-in">
-                  <CardHeader>
-                    <CardTitle>{report.month}</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <div className="grid grid-cols-3 gap-4 text-center">
-                      <div>
-                        <p className="text-sm text-muted-foreground">Поступило</p>
-                        <p className="text-2xl font-bold text-primary">
-                          {report.income.toLocaleString()} ₽
-                        </p>
-                      </div>
-                      <div>
-                        <p className="text-sm text-muted-foreground">Потрачено</p>
-                        <p className="text-2xl font-bold text-secondary">
-                          {report.expenses.toLocaleString()} ₽
-                        </p>
-                      </div>
-                      <div>
-                        <p className="text-sm text-muted-foreground">Помогли детям</p>
-                        <p className="text-2xl font-bold text-muted">
-                          {report.helped}
-                        </p>
-                      </div>
-                    </div>
-                  </CardContent>
-                </Card>
-              ))}
-            </TabsContent>
-            <TabsContent value="detailed">
-              <Card>
-                <CardHeader>
-                  <CardTitle>Структура расходов</CardTitle>
-                  <CardDescription>На что идут пожертвования</CardDescription>
-                </CardHeader>
-                <CardContent className="space-y-4">
-                  <div>
-                    <div className="flex justify-between mb-2">
-                      <span>Лечение и операции</span>
-                      <span className="font-semibold">75%</span>
-                    </div>
-                    <Progress value={75} className="h-3" />
-                  </div>
-                  <div>
-                    <div className="flex justify-between mb-2">
-                      <span>Реабилитация</span>
-                      <span className="font-semibold">15%</span>
-                    </div>
-                    <Progress value={15} className="h-3" />
-                  </div>
-                  <div>
-                    <div className="flex justify-between mb-2">
-                      <span>Административные расходы</span>
-                      <span className="font-semibold">7%</span>
-                    </div>
-                    <Progress value={7} className="h-3" />
-                  </div>
-                  <div>
-                    <div className="flex justify-between mb-2">
-                      <span>Психологическая поддержка</span>
-                      <span className="font-semibold">3%</span>
-                    </div>
-                    <Progress value={3} className="h-3" />
-                  </div>
-                </CardContent>
-              </Card>
-            </TabsContent>
-          </Tabs>
-        </div>
-      </section>
-
-      <section id="volunteer" className="py-20 px-4 bg-white">
+      <section id="volunteer" className="py-20 px-4 bg-gradient-to-b from-white to-accent">
         <div className="container mx-auto max-w-2xl">
           <h2 className="text-4xl font-bold text-center mb-4 text-foreground">Волонтёрство</h2>
           <p className="text-center text-muted-foreground mb-12">
@@ -493,6 +404,7 @@ const Index = () => {
                 <li><a href="#children" className="hover:text-white transition-colors">Подопечные</a></li>
                 <li><a href="#help" className="hover:text-white transition-colors">Помочь</a></li>
                 <li><a href="#volunteer" className="hover:text-white transition-colors">Волонтёрство</a></li>
+                <li><a href="#contacts" className="hover:text-white transition-colors">Контакты</a></li>
               </ul>
             </div>
             <div>

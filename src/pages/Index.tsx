@@ -336,7 +336,7 @@ const Index = () => {
                   <Icon name="Mail" className="text-primary" size={24} />
                   <div>
                     <p className="font-semibold">Email</p>
-                    <p className="text-muted-foreground">info@lvyata.ru</p>
+                    <p className="text-muted-foreground">malenkiy.leo@yandex.ru</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-3">

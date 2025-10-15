@@ -127,7 +127,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
               <p className="text-lg text-muted-foreground mb-4">
-                Благотворительный фонд "Маленькие львята" помогает детям с тяжёлыми заболеваниями с 2018 года. 
+                Благотворительный фонд "Маленькие львята" помогает детям с тяжёлыми заболеваниями с 2025 года. 
                 Мы верим, что каждый ребёнок достоин счастливого и здорового детства.
               </p>
               <p className="text-lg text-muted-foreground mb-4">
@@ -483,7 +483,7 @@ const Index = () => {
                 <span className="text-lg font-bold">Маленькие львята</span>
               </div>
               <p className="text-sm text-gray-300">
-                Помогаем детям с тяжёлыми заболеваниями с 2018 года
+                Помогаем детям с тяжёлыми заболеваниями с 2025 года
               </p>
             </div>
             <div>

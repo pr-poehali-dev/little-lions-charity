@@ -409,9 +409,8 @@ const Index = () => {
             </div>
             <div>
               <h3 className="font-semibold mb-4">Реквизиты</h3>
-              <p className="text-sm text-gray-300">ИНН: 1234567890</p>
-              <p className="text-sm text-gray-300">ОГРН: 1234567890123</p>
-              <p className="text-sm text-gray-300">Счёт: 40703810000000000000</p>
+              <p className="text-sm text-gray-300">ИНН: 3647812214</p>
+              <p className="text-sm text-gray-300">ОГРН: 1257807771400</p>
             </div>
           </div>
           <div className="border-t border-gray-700 pt-8 text-center text-sm text-gray-300">

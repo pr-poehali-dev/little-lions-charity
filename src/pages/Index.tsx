@@ -151,7 +151,7 @@ const Index = () => {
             </div>
             <div className="rounded-2xl overflow-hidden shadow-xl">
               <img 
-                src="https://cdn.poehali.dev/projects/1c550335-c843-4327-9bd8-f4ef9175fe7f/files/9a3e8e9b-1373-44a2-8c94-3c9d8aadbdca.jpg" 
+                src="https://cdn.poehali.dev/files/cf46a6d7-aed7-4fc0-8a75-e619e2b06e07.jpg" 
                 alt="Наша команда" 
                 className="w-full h-full object-cover"
               />

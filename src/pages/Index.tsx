@@ -30,7 +30,7 @@ const Index = () => {
       story: "Даня обожает футбол и очень хочет снова играть с друзьями. Ему необходима операция на сердце.",
       needed: 800000,
       collected: 520000,
-      image: "https://cdn.poehali.dev/projects/1c550335-c843-4327-9bd8-f4ef9175fe7f/files/873ec19e-71e9-4551-bc89-2183f901cb56.jpg"
+      image: "https://cdn.poehali.dev/projects/1c550335-c843-4327-9bd8-f4ef9175fe7f/files/7c0bea3a-b78d-4343-ab2c-5145c1dea861.jpg"
     },
     {
       id: 3,
@@ -40,7 +40,7 @@ const Index = () => {
       story: "София невероятно жизнерадостная девочка. Реабилитация поможет ей делать первые самостоятельные шаги.",
       needed: 400000,
       collected: 280000,
-      image: "https://cdn.poehali.dev/projects/1c550335-c843-4327-9bd8-f4ef9175fe7f/files/39b947a4-bcc0-4308-a2a1-8eeda4b45720.jpg"
+      image: "https://cdn.poehali.dev/projects/1c550335-c843-4327-9bd8-f4ef9175fe7f/files/76fabc38-4e2f-455a-bb26-523196390dc9.jpg"
     }
   ];
 
@@ -151,7 +151,7 @@ const Index = () => {
             </div>
             <div className="rounded-2xl overflow-hidden shadow-xl">
               <img 
-                src="https://cdn.poehali.dev/projects/1c550335-c843-4327-9bd8-f4ef9175fe7f/files/873ec19e-71e9-4551-bc89-2183f901cb56.jpg" 
+                src="https://cdn.poehali.dev/projects/1c550335-c843-4327-9bd8-f4ef9175fe7f/files/9a3e8e9b-1373-44a2-8c94-3c9d8aadbdca.jpg" 
                 alt="Наша команда" 
                 className="w-full h-full object-cover"
               />

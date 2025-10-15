@@ -179,7 +179,7 @@ const Index = () => {
                     />
                   </div>
                   <CardHeader>
-                    <CardTitle>{child.name}, {child.age} лет</CardTitle>
+                    <CardTitle>{child.name}, {child.age} {child.age === 1 ? 'год' : 'лет'}</CardTitle>
                     <CardDescription>{child.diagnosis}</CardDescription>
                   </CardHeader>
                   <CardContent>

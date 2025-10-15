@@ -34,13 +34,13 @@ const Index = () => {
     },
     {
       id: 3,
-      name: "София",
-      age: 4,
-      diagnosis: "ДЦП",
-      story: "София невероятно жизнерадостная девочка. Реабилитация поможет ей делать первые самостоятельные шаги.",
+      name: "Тимур",
+      age: 1,
+      diagnosis: "Врождённый порок сердца",
+      story: "Маленький Тимур только начинает познавать мир. Операция поможет ему расти здоровым и счастливым.",
       needed: 400000,
       collected: 280000,
-      image: "https://cdn.poehali.dev/projects/1c550335-c843-4327-9bd8-f4ef9175fe7f/files/76fabc38-4e2f-455a-bb26-523196390dc9.jpg"
+      image: "https://cdn.poehali.dev/files/e7a41457-e3f4-4fa4-9b8c-04a485ef4a4e.jpg"
     }
   ];
 
